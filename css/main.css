@@ -21,6 +21,9 @@ code {
 iframe {
     width: 70rem;
     height: 17rem;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 main {
