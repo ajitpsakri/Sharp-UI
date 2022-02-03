@@ -11,14 +11,17 @@
 .button-container {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .btn {
     border: 0.01rem solid white;
+    flex-basis: 15rem;
+    height: 5rem;
     padding: 1.3rem;
     font-size: 1.5rem;
     border-radius: 0.7rem;
-    margin: 0rem 0.2rem;
+    margin: 0.2rem 0.2rem;
     cursor: pointer;
 }
 
@@ -91,4 +94,17 @@
     width: 7rem;
     height: 4rem;
     font-size: 1.3rem;
+}
+
+/* || Buttons with icons */
+.btn-icon i {
+    padding-right: 0.5rem;
+}
+
+/* || Floating actions buttons  */
+.btn-float {
+    border-radius: 100%;
+    margin: 1rem;
+    flex-basis: fit-content;
+    height: fit-content;
 }
