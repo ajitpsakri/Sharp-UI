@@ -11,6 +11,7 @@
     position: relative;
 }
 
+/* || class based on size  */
 .badge-lg {
     border-radius: 100%;
     position: absolute;
@@ -42,7 +43,7 @@
     height: var(--dnd-badge-WH);
 }
 
-
+/* || Class based on color */
 
 .badge-online {
     background-color: green;
@@ -54,4 +55,20 @@
 
 .badge-invisible {
     background-color: grey;
+}
+
+/* || class for icons  */
+.badge-container {
+    font-size: 5rem;
+}
+
+.badge-count {
+    position: relative;
+    top: -3rem;
+    left: -1.7rem;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    font-size: 2rem;
+    padding: 0.3rem 0.8rem;
 }
