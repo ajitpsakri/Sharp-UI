@@ -60,6 +60,9 @@
 /* || class for icons  */
 .badge-container {
     font-size: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
 }
 
 .badge-count {
