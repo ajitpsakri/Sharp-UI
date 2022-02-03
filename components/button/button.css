@@ -1,0 +1,14 @@
+@import url(../../css/main.css);
+
+:root {
+    --primary: #C10043;
+    --secondary: #3F3F3F;
+    --defalut: #D5D5D5;
+    --disabled: #939393;
+}
+
+.btn {
+    border: 0.01rem solid white;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+}
