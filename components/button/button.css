@@ -1,5 +1,6 @@
 @import url(../../css/main.css);
 
+/* || page related styles */
 :root {
     --primary: #C10043;
     --secondary: #3F3F3F;
@@ -7,8 +8,87 @@
     --disabled: #939393;
 }
 
+.button-container {
+    display: flex;
+    align-items: flex-end;
+}
+
 .btn {
     border: 0.01rem solid white;
     padding: 1.3rem;
     font-size: 1.5rem;
+    border-radius: 0.7rem;
+    margin: 0rem 0.2rem;
+    cursor: pointer;
+}
+
+/* || Primary buttons styles */
+.btn:active {
+    filter: brightness(80%);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.btn-default {
+    background-color: var(--defalut);
+}
+
+.btn-disabled {
+    background-color: var(--disabled);
+    color: white;
+    cursor: auto;
+}
+
+.btn-disabled:active {
+    filter: brightness(100%);
+}
+
+/* || outline buttons  */
+.btn-outline-primary {
+    border: 0.2rem solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline-secondary {
+    border: 0.2rem solid var(--secondary);
+    color: var(--secondary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: white;
+    transition: 700ms;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary);
+    color: white;
+    transition: 700ms;
+}
+
+/* || buttons by size */
+.btn-lg {
+    width: 20rem;
+    height: 8rem;
+    font-size: 3.2rem;
+}
+
+.btn-md {
+    width: 12rem;
+    height: 6rem;
+    font-size: 1.6rem;
+}
+
+.btn-sm {
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.3rem;
 }
