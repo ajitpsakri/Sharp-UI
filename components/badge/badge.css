@@ -1,0 +1,57 @@
+@import url(../avatar/avatar.css);
+@import url(../../css/main.css);
+
+:root {
+    --online-badge-WH: 2rem;
+    --offline-badge-WH: 1.7rem;
+    --dnd-badge-WH: 1.2rem;
+}
+
+.badge-container {
+    position: relative;
+}
+
+.badge-lg {
+    border-radius: 100%;
+    position: absolute;
+    border: 0.5rem solid white;
+    bottom: 2.3rem;
+    right: 3.5rem;
+    width: var(--online-badge-WH);
+    height: var(--online-badge-WH);
+}
+
+.badge-md {
+    border-radius: 100%;
+    position: absolute;
+    border: 0.45rem solid white;
+    bottom: 2rem;
+    right: 1.5rem;
+    width: var(--offline-badge-WH);
+    height: var(--offline-badge-WH);
+}
+
+.badge-sm {
+    border-radius: 100%;
+    position: absolute;
+    border: 0.25rem solid white;
+    color: white;
+    bottom: 1.7rem;
+    right: 1.1rem;
+    width: var(--dnd-badge-WH);
+    height: var(--dnd-badge-WH);
+}
+
+
+
+.badge-online {
+    background-color: green;
+}
+
+.badge-offline {
+    background-color: red;
+}
+
+.badge-invisible {
+    background-color: grey;
+}
