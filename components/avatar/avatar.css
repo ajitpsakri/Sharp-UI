@@ -1,33 +1,31 @@
 @import url(../../css/main.css);
+
 /* ||General HTML  */
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
 /* || component styles */
-.avatar img{
-    border-radius: 50%; 
+.avatar img {
+    border-radius: 50%;
     margin: 1rem;
     width: 10rem;
 }
+
 .avatar-xl img {
     width: 20rem;
 }
-.avatar-md img{
+
+.avatar-md img {
     width: 13rem;
 }
-.avatar-sm img{
+
+.avatar-sm img {
     width: 7rem;
 }
-.avatar-container{
+
+.avatar-container {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
 }
-.avatar-sq img{
+
+.avatar-sq img {
     border-radius: 0%;
 }
-
-
