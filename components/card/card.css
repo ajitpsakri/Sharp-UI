@@ -1,3 +1,76 @@
 @import url(../../css/main.css);
 @import url(../button/button.css);
 @import url(../avatar/avatar.css);
+
+/* || Basic card component  */
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0.01rem 0.01rem 0.4rem;
+    
+}
+.card-basic{
+    padding:  1rem;
+    max-width: 28rem;
+}
+.card-basic .btn {
+    width: 100%;
+}
+.card-basic h3{
+    margin:0rem;
+    font-size: 2.5rem;
+}
+.card-basic p {
+    color: grey;
+    font-size: 1.3rem;
+}
+/* || Social media card  */
+.card-social-media {
+    max-width:30rem;
+}
+
+.card-media-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.2rem 0rem 0rem;
+}
+
+.card-media-header h3,
+.card-media-header p {
+    margin: 0;
+}
+.card-media-first{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+.card-media-first P{
+    font-size: 1.3rem;
+    color: grey;
+}
+.card-media-first h3{
+    font-size: 2.7rem;
+}
+.card-media-header i{
+    font-size: 2rem;
+}
+.card-social-main-img img{
+    width: 100%;
+}
+.card-social-discrip {
+    padding: 1rem;
+}
+.card-social-discrip p{
+    margin: 0;
+    font-size: 1.4rem;
+}
+.card-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.card-icons i{
+    margin: 0.6rem;
+    font-size: 2rem;
+}
