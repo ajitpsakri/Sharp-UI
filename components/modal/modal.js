@@ -5,6 +5,7 @@ const modalContainer = document.querySelector(".modal-container");
 //reset
 modalContainer.style.display = "none";
 
+//eventlisteners
 modalBtn.addEventListener('click', function () {
     modalContainer.style.display = "flex";
 })
