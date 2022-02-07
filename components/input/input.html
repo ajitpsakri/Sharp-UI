@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./input.css" />
+    <title>Sharp UI | Input</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <h1>Inputs</h1>
+
+        <h2>Basic Input and Validation Input</h2>
+        <div class="input-container">
+          <div class="input-cont input-basic-container">
+            <label class="input-label" for="input">Username *</label>
+            <input
+              placeholder="Enter username"
+              class="input input-basic"
+              id="input"
+              type="text"
+            />
+          </div>
+          <div class="input-cont input-error-container">
+            <label class="label-error input-label" for="input-error"
+              >Password *</label
+            >
+            <input
+              placeholder="Enter password"
+              class="input input-error"
+              id="input"
+              type="text"
+            />
+            <p class="error-message input-message">
+              * Wrong password,please try again
+            </p>
+          </div>
+
+          <div class="input-cont input-success-container">
+            <label class="label-success input-label" for="input"
+              >Password *</label
+            >
+            <input
+              placeholder="Enter password"
+              class="input input-success"
+              id="input"
+              type="text"
+            />
+            <p class="success-message input-message">* Password verified!</p>
+          </div>
+        </div>
+        <h2>Text Area</h2>
+        <div class="input-container">
+          <textarea
+            placeholder="Enter you comment"
+            class="textarea"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <h2>Radio Input</h2>
+        <div class="input-container">
+          <input
+            class="normal-radio-input"
+            id="radio-input-normal"
+            value="Radio 1"
+            name="radio-input"
+            type="radio"
+          />
+          <label for="radio-input">Radio 1</label>
+          <input
+            class="normal-radio-input"
+            id="radio-input-normal"
+            value="Radio 2"
+            name="radio-input"
+            type="radio"
+          />
+          <label for="radio-input">Radio 2</label>
+
+          <input
+            class="disabled-radio-input"
+            id="radio-input-disabled"
+            value="Radio 3"
+            name="radio-input"
+            type="radio"
+            disabled
+          />
+          <label for="radio-input-disabled">Radio 3</label>
+        </div>
+        <h2>Checkbox Input</h2>
+        <div class="input-container">
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="input-checkbox"
+            id="checkbox-1"
+          />
+          <label for="checkbox-1">Checkbox-1</label>
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="input-checkbox"
+            id="checkbox-2"
+          />
+          <label for="checkbox-2">Checkbox-2</label>
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="input-checkbox"
+            id="checkbox-3"
+            disabled
+          />
+          <label for="checkbox-3">Checkbox-3</label>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
