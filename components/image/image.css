@@ -1,0 +1,13 @@
+@import url(../../css/main.css);
+
+.image-responsive{
+    width: 60%;
+}
+.image-round{
+    width: 60%;
+    border-radius: 100%;
+}
+
+
+
+

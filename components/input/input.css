@@ -1,0 +1,65 @@
+@import url(../../css/main.css);
+:root{
+    --white:white;
+    --success:green;
+    --error:red;
+    --basic:black;
+    --disabled:grey;
+}
+
+.input{
+    width: 100%;
+    min-height: 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.input-message{
+    margin: 0;
+    font-size: 1rem;
+}
+.input-cont{
+    position: relative;
+    margin: 3rem 0rem;
+}
+.input-label{
+    position: absolute;
+    background-color: var(--white);
+    top:-1rem;
+    left: 0.8rem;
+}
+.label-error,.error-message{
+    color: var(--error);
+}
+.label-success,.success-message{
+    color: var(--success);
+}
+.input-basic{
+    border:2px solid var(--basic);
+}
+.input-error{
+    border:2px solid var(--error);
+}
+.input-success{
+    border:2px solid var(--success);
+}
+.input-basic:focus{
+    outline-color:var(--basic);
+}
+.input-error:focus{
+    outline-color: var(--error);
+}
+.input-success:focus{
+    outline-color: var(--success);
+}
+.label-disabled{
+    color: var(--disabled);
+}
+
+/* || text area  */
+.textarea{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
