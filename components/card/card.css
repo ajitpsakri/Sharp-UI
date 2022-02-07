@@ -6,7 +6,6 @@
 .card {
     border-radius: 0.5rem;
     box-shadow: 0.01rem 0.01rem 0.4rem;
-    
 }
 .card-basic{
     padding:  1rem;
@@ -71,6 +70,85 @@
     justify-content: space-between;
 }
 .card-icons i{
-    margin: 0.6rem;
+    margin: 0.8rem;
     font-size: 2rem;
+}
+
+/* || Dismissible Image Card */
+.card-dismiss{
+    max-width: 30rem;
+}
+.card-dismiss-img img{
+    width: 100%;
+} 
+.card-dismiss-img{
+    position: relative;
+}
+.card-dismiss-img i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.7rem;
+    color: white;
+}
+.card-dismiss-title{
+    margin:1rem;
+}
+.card-dismiss-title h3{
+    margin: 0;
+    font-size: 2.5rem;
+}
+.card-dismiss-title p{
+    margin: 0rem 1rem;
+    font-size: 1.3rem;
+    color: grey;
+}
+.card-dismiss-content{
+    margin: 1rem;
+}
+.card-dismiss-footer i{
+    font-size: 2rem;
+}
+.card-dismiss-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* || card-text-overlay */
+.card-text-overlay img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+.card-text-overlay{
+    position: relative;
+    max-width: 30rem;
+    height: 30rem;
+}
+.card-text-overlay-header{
+    padding: 0rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+.card-text-overlay-header h3,.card-text-overlay-header p {
+    margin: 0;
+}
+.card-text-overlay-header i {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.card-text-overlay-footer .card-icons{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
