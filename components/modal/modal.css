@@ -1,0 +1,62 @@
+@import url(../../css/main.css);
+@import url(../button/button.css);
+:root{
+    --black:black;
+    --white:white;
+    --grey: #d8d1d1;
+}
+.grey-effect{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 70%;
+    position: fixed;
+    z-index: 1;
+}
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal{
+   background-color: var(--white);
+   border-radius: 0.7rem;
+   width: 30%;
+   /* position: fixed; */
+   z-index: 2;
+   /* top:30vh;
+   left: 35vw; */
+   padding: 0.7rem;
+}
+.modal-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.modal-header h2,.modal-close{
+    margin: 0rem ;
+}
+.modal-close{
+    padding: 3px 5px;
+}
+.modal-close:hover{
+    background-color: var(--grey);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.modal-actionables{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    justify-content:flex-end;
+}
