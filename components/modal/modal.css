@@ -25,16 +25,14 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .modal{
    background-color: var(--white);
    border-radius: 0.7rem;
    width: 30%;
-   /* position: fixed; */
    z-index: 2;
-   /* top:30vh;
-   left: 35vw; */
    padding: 0.7rem;
 }
 .modal-header{
