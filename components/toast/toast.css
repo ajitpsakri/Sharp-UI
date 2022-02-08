@@ -32,6 +32,7 @@
 .toast{
     margin: 1rem;
     position: fixed;
+    z-index: 2;
 }
 .toast-bl{
     bottom: 0;
