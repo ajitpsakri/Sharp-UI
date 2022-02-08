@@ -1,0 +1,51 @@
+@import url(../../css/main.css);
+@import url(../../components/button/button.css);
+@import url(../alert/alert.css);
+
+:root {
+    --info: #7FD2E6;
+    --info-text: #29438B;
+    --success: #84F1C9;
+    --success-text: #1B7052;
+    --warning: #FFE7C5;
+    --warning-text: #FF9204;
+    --danger: #FCC5C5;
+    --danger-text: #DC3545;
+}
+
+.click-primary{
+    background-color: var(--info);
+    color: var(--info-text);
+}
+.click-success{
+    background-color: var(--success);
+    color: var(--success-text);
+}
+.click-warning{
+    background-color: var(--warning);
+    color: var(--warning-text);
+}
+.click-danger{
+    background-color: var(--danger);
+    color: var(--danger-text);
+}
+.toast{
+    margin: 1rem;
+    position: fixed;
+}
+.toast-bl{
+    bottom: 0;
+    left:0;
+}
+.toast-br{
+    bottom: 0;
+    right:0;
+}
+.toast-tl{
+    top: 0;
+    left:0;
+}
+.toast-tr{
+    top: 0;
+    right:0;
+}
