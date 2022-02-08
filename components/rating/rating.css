@@ -1,0 +1,12 @@
+@import url(../../css/main.css);
+:root{
+    --black:#000000;
+    --white:white;
+    --gold:	#FFD700;
+}
+.rating-star{
+    font-size: 2.5rem;
+    
+}
+/* Features */
+/* 4. Rating star font size  */
