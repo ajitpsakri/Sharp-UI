@@ -24,7 +24,6 @@
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    width: 200%;
 }
 
 .avatar-sq img {
