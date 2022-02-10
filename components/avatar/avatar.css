@@ -9,21 +9,22 @@
 }
 
 .avatar-xl img {
-    width: 20rem;
+    width: 16rem;
 }
 
 .avatar-md img {
-    width: 13rem;
+    width: 9rem;
 }
 
 .avatar-sm img {
-    width: 7rem;
+    width: 5rem;
 }
 
 .avatar-container {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+    width: 200%;
 }
 
 .avatar-sq img {
