@@ -27,13 +27,16 @@ iframe {
 }
 
 main {
+    position: relative;
     display: flex;
     align-items: center;
     min-height: 100vh;
-    margin-left: 6rem;
+    margin-left: 16rem;
     justify-content: flex-start;
+    top:5rem;
 }
 
 .wrapper {
     width: 50%;
+    height: 100%;
 }
