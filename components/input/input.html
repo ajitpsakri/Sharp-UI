@@ -5,136 +5,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="../../css/layout.css" />
     <title>Sharp UI | Input</title>
   </head>
   <body>
-    <main>
-      <div class="wrapper">
-        <h1>Inputs</h1>
-
-        <h2>Basic Input and Validation Input</h2>
-        <p>
-          Three types of styles can be applied i.e basic, error, success using
-          following class in the given code.
-        </p>
-        <div class="input-container">
-          <div class="input-cont input-basic-container">
-            <label class="input-label" for="input">Username</label>
-            <input
-              placeholder="Enter username"
-              class="input input-basic"
-              id="input"
-              type="text"
-            />
-          </div>
-          <div class="input-cont input-error-container">
-            <label class="label-error input-label" for="input-error"
-              >Password</label
-            >
-            <input
-              placeholder="Enter password"
-              class="input input-error"
-              id="input"
-              type="text"
-            />
-            <p class="error-message input-message">
-              * Wrong password,please try again
-            </p>
-          </div>
-
-          <div class="input-cont input-success-container">
-            <label class="label-success input-label" for="input"
-              >Password</label
-            >
-            <input
-              placeholder="Enter password"
-              class="input input-success"
-              id="input"
-              type="text"
-            />
-            <p class="success-message input-message">* Password verified!</p>
-          </div>
-        </div>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Fbasic-valid.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
-        <h2>Text Area</h2>
-        <div class="input-container">
-          <textarea
-            placeholder="Enter you comment"
-            class="textarea"
-            cols="30"
-            rows="10"
-          ></textarea>
-        </div>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Ftext-area.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
-        <h2>Radio Input</h2>
-        <p>
-          Radio inputs allows user to select one option from predefined set of
-          multiple options.
-        </p>
-        <div class="input-container">
-          <input
-            class="normal-radio-input"
-            id="radio-input-normal"
-            value="Radio 1"
-            name="radio-input"
-            type="radio"
-          />
-          <label for="radio-input">Radio 1</label>
-          <input
-            class="normal-radio-input"
-            id="radio-input-normal"
-            value="Radio 2"
-            name="radio-input"
-            type="radio"
-          />
-          <label for="radio-input">Radio 2</label>
-
-          <input
-            class="disabled-radio-input"
-            id="radio-input-disabled"
-            value="Radio 3"
-            name="radio-input"
-            type="radio"
-            disabled
-          />
-          <label class="label-disabled" for="radio-input-disabled"
-            >Radio 3</label
-          >
-        </div>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Fradio.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
-        <h2>Checkbox Input</h2>
-        <p>
-          The checkbox is shown as a square box that is ticked (checked) when
-          activated.
-        </p>
-        <div class="input-container">
-          <input
-            type="checkbox"
-            class="input-checkbox"
-            name="input-checkbox"
-            id="checkbox-1"
-          />
-          <label for="checkbox-1">Checkbox-1</label>
-
-          <input
-            type="checkbox"
-            class="input-checkbox"
-            name="input-checkbox"
-            id="checkbox-2"
-          />
-          <label for="checkbox-2">Checkbox-2</label>
-
-          <input
-            type="checkbox"
-            class="input-checkbox"
-            name="input-checkbox"
-            id="checkbox-3"
-            disabled
-          />
-          <label class="label-disabled" for="checkbox-3">Checkbox-3</label>
-        </div>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Fcheckbox.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
+    <div class="header">
+      <div class="logo">
+        <h1>Sharp UI</h1>
+        <p class="logo-caption">v1.0</p>
       </div>
-    </main>
+      <a target="_blank" href="https://github.com/ajitpsakri/Sharp-UI"
+        ><i class="header-icon fab fa-github"></i
+      ></a>
+    </div>
+    <div class="main-content">
+      <aside>
+        <div class="sidebar-list-container">
+          <a href="../avatar/avatar.html">Avatar</a>
+          <a href="../alert/alert.html">Alert</a>
+          <a href="../badge/badge.html">Badge</a>
+          <a href="../button/button.html">Button</a>
+          <a href="../card/card.html">Card</a>
+          <a href="../image/image.html">Image</a>
+          <a href="../input/input.html">Input</a>
+          <a href="../modal/modal.html">Modal</a>
+          <a href="../toast/toast.html">Toast</a>
+          <a href="../rating/rating.html">Rating</a>
+          <a href="../navigation/nav.html">Navigation</a>
+          <a href="../grid/grid.html">Grid</a>
+        </div>
+      </aside>
+      <main>
+        <div class="wrapper">
+          <h1>Inputs</h1>
+
+          <h2>Basic Input and Validation Input</h2>
+          <p>
+            Three types of styles can be applied i.e basic, error, success using
+            following class in the given code.
+          </p>
+          <div class="input-container">
+            <div class="input-cont input-basic-container">
+              <label class="input-label" for="input">Username</label>
+              <input
+                placeholder="Enter username"
+                class="input input-basic"
+                id="input"
+                type="text"
+              />
+            </div>
+            <div class="input-cont input-error-container">
+              <label class="label-error input-label" for="input-error"
+                >Password</label
+              >
+              <input
+                placeholder="Enter password"
+                class="input input-error"
+                id="input"
+                type="text"
+              />
+              <p class="error-message input-message">
+                * Wrong password,please try again
+              </p>
+            </div>
+
+            <div class="input-cont input-success-container">
+              <label class="label-success input-label" for="input"
+                >Password</label
+              >
+              <input
+                placeholder="Enter password"
+                class="input input-success"
+                id="input"
+                type="text"
+              />
+              <p class="success-message input-message">* Password verified!</p>
+            </div>
+          </div>
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Fbasic-valid.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
+          <h2>Text Area</h2>
+          <div class="input-container">
+            <textarea
+              placeholder="Enter you comment"
+              class="textarea"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Ftext-area.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
+          <h2>Radio Input</h2>
+          <p>
+            Radio inputs allows user to select one option from predefined set of
+            multiple options.
+          </p>
+          <div class="input-container">
+            <input
+              class="normal-radio-input"
+              id="radio-input-normal"
+              value="Radio 1"
+              name="radio-input"
+              type="radio"
+            />
+            <label for="radio-input">Radio 1</label>
+            <input
+              class="normal-radio-input"
+              id="radio-input-normal"
+              value="Radio 2"
+              name="radio-input"
+              type="radio"
+            />
+            <label for="radio-input">Radio 2</label>
+
+            <input
+              class="disabled-radio-input"
+              id="radio-input-disabled"
+              value="Radio 3"
+              name="radio-input"
+              type="radio"
+              disabled
+            />
+            <label class="label-disabled" for="radio-input-disabled"
+              >Radio 3</label
+            >
+          </div>
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Fradio.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
+          <h2>Checkbox Input</h2>
+          <p>
+            The checkbox is shown as a square box that is ticked (checked) when
+            activated.
+          </p>
+          <div class="input-container">
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="input-checkbox"
+              id="checkbox-1"
+            />
+            <label for="checkbox-1">Checkbox-1</label>
+
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="input-checkbox"
+              id="checkbox-2"
+            />
+            <label for="checkbox-2">Checkbox-2</label>
+
+            <input
+              type="checkbox"
+              class="input-checkbox"
+              name="input-checkbox"
+              id="checkbox-3"
+              disabled
+            />
+            <label class="label-disabled" for="checkbox-3">Checkbox-3</label>
+          </div>
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fajitpsakri%2FComponent-Lib-Code-Snippers%2Fblob%2Fmain%2Finput%2Fcheckbox.html&style=a11y-dark&showBorder=on&showCopy=on&fetchFromJsDelivr=on"></script>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

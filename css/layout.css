@@ -50,7 +50,7 @@ aside a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
+    z-index: 1;
     padding-bottom: 7px;
 }
 .header i{
