@@ -1,5 +1,9 @@
 @import url(../../css/main.css);
-
+:root{
+    --blue:#76b9f5;
+    --yellow:#ebf092;
+    --red:#fa8989;
+}
 .grid{
     display: grid;
     height: 20rem;
@@ -21,13 +25,13 @@
     grid-template: 1fr /1fr 1fr 1fr;
 }
 .red{
-    background-color: red;
+    background-color: var(--red);
 }
 .yellow{
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 .blue{
-    background-color: blue;
+    background-color: var(--blue);
 }
 .gap-10{
     gap: 10px;
