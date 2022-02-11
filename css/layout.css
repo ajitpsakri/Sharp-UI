@@ -3,6 +3,7 @@
     --hover-grey:rgb(221, 210, 210);
     --version-grey:rgb(199, 199, 199);
     --header-background-color:rgb(58, 58, 240);
+    --current-color:rgb(180, 180, 246);
 }
 .main-content{
     display: flex;
@@ -89,4 +90,7 @@ aside a:hover{
     left: 1rem;
     margin: 0;
     font-size: 1.2rem;
+}
+.current{
+    background-color: var(--current-color);
 }
