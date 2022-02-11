@@ -9,7 +9,7 @@
 }
 aside{
     position: fixed;
-    min-width: 17%;
+    max-width: 20%;
     background-color: white;
     max-height: 91.5%;
     overflow-y: scroll;
