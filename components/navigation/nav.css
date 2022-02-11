@@ -33,4 +33,9 @@
 .nav-container h3{
     color: var(--h3-color);
 }
-
+.footer-nav h3{
+    color: white;
+}
+.footer-nav a{
+    text-decoration: none;
+}
