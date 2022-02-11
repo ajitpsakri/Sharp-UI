@@ -19,9 +19,12 @@ aside{
 .sidebar-ul{
     padding: 0;
 }
-.sidebar-list-container{
+.sidebar-list-container,.component-links{
     display: flex;
     flex-direction: column;
+}
+.component-links a{
+    padding-left: 2rem;
 }
 .sidebar-li{
     width: 100%;
@@ -74,4 +77,11 @@ aside a:hover{
     margin: 0;
     bottom: -2px;
     right: -2.2rem;
+}
+.sidebar-label{
+    color: grey;
+    position: relative;
+    left: 1rem;
+    margin: 0;
+    font-size: 1.2rem;
 }
