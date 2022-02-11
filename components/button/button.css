@@ -2,7 +2,7 @@
 
 /* || page related styles */
 :root {
-    --primary: #C10043;
+    --primary: #4235f5;
     --secondary: #3F3F3F;
     --defalut: #D5D5D5;
     --disabled: #939393;
@@ -58,11 +58,13 @@
 .btn-outline-primary {
     border: 0.2rem solid var(--primary);
     color: var(--primary);
+    transition: 700ms;
 }
 
 .btn-outline-secondary {
     border: 0.2rem solid var(--secondary);
     color: var(--secondary);
+    transition: 700ms;
 }
 
 .btn-outline-primary:hover {

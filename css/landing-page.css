@@ -1,0 +1,21 @@
+.main{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-pitch{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
