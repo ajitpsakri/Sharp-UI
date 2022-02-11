@@ -13,6 +13,7 @@ aside{
     background-color: white;
     max-height: 91.5%;
     overflow-y: scroll;
+    overflow-x: hidden;
     left: 0;
     top:5rem;
 }
