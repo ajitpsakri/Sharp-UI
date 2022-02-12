@@ -1,0 +1,16 @@
+@import url(../../css/main.css);
+
+:root{
+    --blue:rgb(125, 125, 241);
+    --white:white;
+}
+.list li{
+    list-style: none;
+}
+.stacked-list li{
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 8px 0px;
+    padding: 1rem;
+    border-radius: 4px;
+}

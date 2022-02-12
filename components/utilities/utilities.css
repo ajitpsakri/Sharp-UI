@@ -1,0 +1,50 @@
+@import url(../../css/main.css);
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.fs-8{
+    font-size: xx-large;
+}
+.fs-7{
+    font-size: x-large;
+}
+.fs-6{
+    font-size: larger;
+}
+.fs-5{
+    font-size: large;
+}
+.fs-4{
+    font-size: medium;
+}
+.fs-3{
+    font-size: small;
+}
+.fs-2{
+    font-size: smaller;
+}
+.fs-1{
+    font-size: xx-small;
+}
+
+.text-error{
+    color: red;
+}
+.text-success{
+    color: green;
+}
+.text-warning{
+    color: gold;
+}
+.text-strike{
+    text-decoration: line-through;
+}
+.text-underline{
+    text-decoration: underline;
+}

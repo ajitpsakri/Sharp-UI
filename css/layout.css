@@ -25,6 +25,9 @@ aside{
     display: flex;
     flex-direction: column;
 }
+.sidebar-list-container{
+    margin-bottom: 2rem;
+}
 .component-links a{
     transition: 400ms;
 }
