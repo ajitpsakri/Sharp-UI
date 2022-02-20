@@ -215,3 +215,12 @@
     margin: 0.7rem;
     color: red;
 }
+
+/* Card horizontal */
+.card-horizontal{
+    display: flex;
+    max-width: 50rem;
+}
+.card-horizontal .card-ecom-header{
+    max-width: 20rem;
+}
