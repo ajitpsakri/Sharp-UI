@@ -47,12 +47,11 @@
 .btn-disabled {
     background-color: var(--disabled);
     color: white;
-    cursor: auto;
+    cursor: not-allowed;
 }
 
 .btn-disabled:active {
     filter: brightness(100%);
-    cursor: not-allowed;
 }
 
 /* || outline buttons  */
